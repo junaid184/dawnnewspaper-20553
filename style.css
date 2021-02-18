@@ -1,0 +1,151 @@
+/* set margin of the whole page */
+* { 
+    margin: 0px;
+    Padding: 0px;
+}
+/* top menu bar of the page */
+#top{
+   font-size: 7pt;
+   background-color: black;
+   text-align: center;
+   padding-top: .3125rem;
+   padding-bottom: .3125rem;
+   padding-left: .625rem;
+   padding-right: .625rem;
+   word-spacing: 3.5em;
+}
+#epaper,#livetv,#dawnnewsurdu,#images,#herald,#aurorar,#cityfm89,#teeli,#advertise,#es,#classified,#obituary{
+    text-decoration: none;
+    color: #9fa6b2;
+    font-family: NafeesNaksh,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+    text-transform: uppercase;
+}
+/* logo of the dawn page and date setting */
+#header {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#date {
+    text-decoration: none;
+    color: #9fa6b2;
+    font-family: NafeesNaksh,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+/* main menu */
+#home,#latest,#corona,#pak,#business,#opinion,#culture,#sport,#magazine,#world,#tech,#prism,#popular,#multimedia,#arhive,#indepth{
+    text-decoration: none;
+    color: #0c0c0c;
+    font-family: NafeesNaksh,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+    text-transform: uppercase;
+    font-size: 9pt;
+    
+}
+#corona {
+    color: red;
+}
+#menu {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50px 50px 100px 60px 60px 60px 60px 50px 80px 50px 50px 50px 60px 80px 70px 90px 200px;
+    grid-template-areas: 
+    "home latest corona pak business opinion culture sport magazine world tech prism popular multimedia arhive indepth search";
+}
+#home:hover,#latest:hover,#corona:hover,#pak:hover,#business:hover,#opinion:hover,#culture:hover,#sport:hover,#magazine:hover,#world:hover,#tech:hover,#prism:hover,#popular:hover,#multimedia:hover,#arhive:hover,#indepth:hover{
+    background-color: #d2d6dc;
+}
+#search {
+    margin-left: 100px;
+    width: 140px;
+    border: none;
+    border-bottom: 5px solid black;
+}
+/* first heading */
+#heading1 {
+    padding: 10px;
+}
+#headinghr {
+    width: 840px;
+}
+/* setting of the facebook, tweeter, email etc logo */
+#Facebook {
+    margin-left: 300px;
+}
+#pic {
+    width: 850px;
+}
+/* paragraph setting */
+#p1 {
+    font-weight: bold;
+    font-size: 16pt;
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 500px;
+}
+.paragraph {
+    font-size: 16pt;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 500px;
+}
+a.plink {
+    color: red;
+}
+#fac {
+    margin-left: 500px;
+}
+/* partition between the paragraph and read more section */
+.partition {
+    margin-top: 50px;
+    width: 840px;
+    border: 2px solid black;
+}
+/* setting of the readmore & news section */
+td>a{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+}
+.readmore,.News {
+    width: 50px;
+}
+h1.heading {
+    padding: 10px;
+}
+.News{
+    text-align: right;
+}
+/* comments form setting */
+.comments{
+    font-weight: bold;
+    font-size: 16pt;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 500px;
+}
+.comments>input,textarea {
+    
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type=email], #city {
+    margin-left: 260px;
+}
+#submit {
+    color: red;
+}
+#submitpara {
+    font-weight: lighter;
+    font-size: 11pt;
+}
+textarea::placeholder {
+    font-size: 16pt;
+}
+input[type=submit] {
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
